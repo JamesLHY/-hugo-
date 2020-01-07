@@ -54,7 +54,20 @@ git add .
 git commit -m 第一次部署博客
 ```
 ## step8 
-在GitHub新建repo，专门用来放blog
+在GitHub新建repo，命名usersname.github.io
+然后
+```
+git remote origin git@xxxx.github.io
+git push -u master
+```
+OK，已经上传上GitHub了
+
+## step9
+进入setting，找到GitHub page，在custom domain输入自己的域名
+save
+
+# End
+
 
 
 
